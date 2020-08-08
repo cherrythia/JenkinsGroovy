@@ -4,7 +4,7 @@ node {
     }
     stage('Build') {
         echo 'Building....'
-        releasenotes(changes:true)
+        releasenotes(changes:true) 
     }
     stage('Test') {
         echo 'Testing....'
